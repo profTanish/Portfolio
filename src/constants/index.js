@@ -57,24 +57,6 @@ export const navLinks = [
   ];
   export const myProjects = [
     {
-      title: 'StoreIt - Data Storage Platform',
-      desc: 'StoreIt is a powerful platform that allows users to securely store data in any format. It provides features to share, delete, and manage data effortlessly. The platform also includes a modern OTP validation system for enhanced security.',
-      subdesc: 'Built with Next.js and Tailwind CSS, StoreIt offers a seamless user experience with robust data management capabilities.',
-      texture: '/textures/project/StoreIt.mkv',
-      logo: '/assets/logo-full.svg',
-      logoStyle: {
-        backgroundColor: '#2A1816',
-        border: '0.2px solid #36201D',
-        boxShadow: '0px 0px 60px 0px #AA3C304D',
-      },
-      spotlight: '/assets/storeit-spotlight.png',
-      tags: [
-        { id: 1, name: 'React.js', path: '/assets/react.svg' },
-        { id: 2, name: 'TailwindCSS', path: '/assets/tailwindcss.png' },
-        { id: 3, name: 'TypeScript', path: '/assets/typescript.png' },
-      ],
-    },
-    {
       title: 'Koursely - Course Selling Platform',
       desc: 'Koursely enables educators to create courses that students can purchase and learn from. It features a robust review system and allows both educators and students to edit their profiles.',
       subdesc: 'This platform is built with MongoDB, Express.js, and React, offering a user-friendly interface and seamless course management.',
@@ -85,17 +67,17 @@ export const navLinks = [
         border: '0.2px solid #17293E',
         boxShadow: '0px 0px 60px 0px #2F6DB54D',
       },
-      spotlight: '/assets/koursely-spotlight.png',
+      // spotlight: '/assets/koursely-spotlight.png',
       tags: [
         { id: 1, name: 'React.js', path: '/assets/react.svg' },
         { id: 2, name: 'TailwindCSS', path: '/assets/tailwindcss.png' },
-        { id: 3, name: 'MongoDB', path: '/assets/mongodb.png' },
+        { id: 3, name: 'MongoDB', path: 'mongodb.svg' },
       ],
     },
     {
-      title: 'Y-Chat - Real-Time Chat Application',
-      desc: 'Y-Chat allows users to create public and private chat rooms, interact with members of the room, and manage their profiles.',
-      subdesc: 'Built using Next.js, WebSocket, and Prisma ORM, Y-Chat offers real-time messaging and efficient data management.',
+      title: 'Chat - Real-Time Chat Application',
+      desc: 'Chat allows users to create public and private chat rooms, interact with members of the room, and manage their profiles.',
+      subdesc: 'Built using Next.js, WebSocket, and Prisma ORM, Chat offers real-time messaging and efficient data management.',
       texture: '/textures/project/Ychat.mkv',
       logo: '/assets/Ychat.png',
       logoStyle: {
@@ -103,49 +85,11 @@ export const navLinks = [
         border: '0.2px solid #252262',
         boxShadow: '0px 0px 60px 0px #635BFF4D',
       },
-      spotlight: '/assets/ychat-spotlight.png',
+      // spotlight: '/assets/ychat-spotlight.png',
       tags: [
         { id: 1, name: 'React.js', path: '/assets/react.svg' },
         { id: 2, name: 'WebSocket', path: '/assets/download.jpeg' },
         { id: 3, name: 'Prisma', path: '/assets/download1.png' },
-      ],
-    },
-    {
-      title: 'Audiolux - Audio Streaming Platform',
-      desc: 'Audiolux allows admins to create spaces, add songs, and charge listeners in Solana to access those songs.',
-      subdesc: 'The app integrates blockchain technology with Solana for payments, offering a decentralized music streaming experience.',
-      texture: '/textures/project/Audiolux.mkv',
-      logo: '/assets/Audio.png',
-      logoStyle: {
-        backgroundColor: '#60f5a1',
-        background:
-          'linear-gradient(0deg, #60F5A150, #60F5A150), linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(208, 213, 221, 0.8) 100%)',
-        border: '0.2px solid rgba(208, 213, 221, 1)',
-        boxShadow: '0px 0px 60px 0px rgba(35, 131, 96, 0.3)',
-      },
-      spotlight: '/assets/audiolux-spotlight.png',
-      tags: [
-        { id: 1, name: 'React.js', path: '/assets/react.svg' },
-        { id: 2, name: 'Solana', path: '/assets/solana.png' },
-        { id: 3, name: 'TypeScript', path: '/assets/typescript.png' },
-      ],
-    },
-    {
-      title: 'Token Launchpad - Solana Token Creator',
-      desc: 'The Token Launchpad enables users to create Solana tokens effortlessly. It provides a simple and intuitive interface for token creation.',
-      subdesc: 'Built with Next.js and Solana SDK, this platform offers a straightforward solution for blockchain-based token creation.',
-      texture: '/textures/project/Solana.mkv',
-      logo: '/assets/Sol.png',
-      logoStyle: {
-        backgroundColor: '#0E1F38',
-        border: '0.2px solid #0E2D58',
-        boxShadow: '0px 0px 60px 0px #2F67B64D',
-      },
-      spotlight: '/assets/tokenlaunchpad-spotlight.png',
-      tags: [
-        { id: 1, name: 'React.js', path: '/assets/react.svg' },
-        { id: 2, name: 'Solana', path: '/assets/solana.png' },
-        { id: 3, name: 'TypeScript', path: '/assets/typescript.png' },
       ],
     },
   ];
